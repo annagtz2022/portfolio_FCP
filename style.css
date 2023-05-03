@@ -93,6 +93,16 @@ section .title::after{
     background: #fff;
     transform: translateX(-50%);
 }
+section .title2::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 215px;
+    height: 1.4px;
+    background: #111;
+    transform: translateX(-50%);
+}
 
 /* navbar styling */
 .navbar{
@@ -284,6 +294,9 @@ section .title::after{
 .teams .title::before{
     background: #fff;
 }
+.teams .title2::before{
+    margin-bottom: 14px;
+}
 .services .title::after,
 .teams .title::after{
     background: #111;
@@ -326,7 +339,6 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
-
 /* skills section styling */
 
 .skills .title::after{
@@ -360,7 +372,7 @@ section .title::after{
     background: none;
 }
 .skills .skills-content .right .bars{
-    margin-bottom: 0.9rem;
+    margin-bottom: 0.7rem;
 }
 .skills .skills-content .right .line{
     color: white;
@@ -379,22 +391,12 @@ section .title::after{
 /* teams section styling */
         
 .teams .title::after{
-    content: "Here are some examples of my work that I have done in Excel and SQL with Power BI";
-    margin-bottom: -25px;
+    content: "These works have been done in Excel and SQL with Power BI";
+    margin-bottom: -15px;
 }
-
-/*.teams .carousel .card{
-    background: #222;
-    border-radius: 6px;
-    padding: 25px 35px;
-    text-align: center;
-    overflow: hidden;
-    transition: all 0.3s ease;
-}*/
 
 .teams .carousel .card .portfolio-item {
     position: relative;
-    /*border-radius: 15px;*/
   }
   .teams .carousel .card .portfolio-item img {
     width: 100%;
